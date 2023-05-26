@@ -43,6 +43,9 @@ a:hover {
   text-decoration: none;
   color: inherit;
 }
+/* hr {
+  
+} */
 
 /*---------------------------- menu ------------------------------------ */
 .bg-black-trans {
@@ -458,8 +461,9 @@ ul.second span {
 .smart-hr {
   margin-top: -2px;
   width: 40px;
-  height: 3px;
+  height: 3px !important;
   background: #109446;
+  opacity: 1;
 }
 .bg-drone {
   background-image: url("./img/smart/drone.jpg");
@@ -628,4 +632,9 @@ ul.real-menu li a:hover {
 }
 .h255 {
   height: 250px !important;
+}
+
+.header__logo {
+  width: 200px;
+  height: 50px;
 }
