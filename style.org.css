@@ -510,7 +510,8 @@ ul.my-ul i {
 /*----------------------------------------------------------------------*/
 /* Nos smart solutions */
 .bg-valley {
-  background-image: url("./img/valeurs/valley.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url("./img/valeurs/valley.jpg");
   height: 400px;
 }
 /*----------------------------------------------------------------------*/
