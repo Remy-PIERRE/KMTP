@@ -646,10 +646,13 @@ ul.real-menu li a:hover {
   height: 50px;
 }
 .gmap__link {
-  display: block;
+  /* display: block;
   width: 90%;
   margin: 20px auto;
   border: 1px solid #000;
-  border-radius: 5px;
+  border-radius: 5px; */
   overflow: hidden;
+}
+.gmap__link img {
+  /* width: ; */
 }
