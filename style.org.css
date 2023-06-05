@@ -78,39 +78,39 @@ a:hover {
 
 .bg-home {
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-    url("./img/bg-home.jpg");
+    url("./img/bg-home.webp");
   background-size: cover;
 }
 .slogan {
   font-size: 1.61rem;
 }
 .bg-notre-expertise {
-  background-image: url("./img/bg-notre-expertise.jpg");
+  background-image: url("./img/bg-notre-expertise.webp");
 }
 .bg-nos-metiers {
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-    url("./img/Nos_Metiers_Portail/bg-portail-nos-metiers.jpg");
+    url("./img/Nos_Metiers_Portail/bg-portail-nos-metiers.webp");
   background-size: cover;
 }
 
 .bg-nos-valeurs {
-  background-image: url("./img/bg-nos-valeurs.jpg");
+  background-image: url("./img/bg-nos-valeurs.webp");
 }
 .bg-nos-realisations {
-  background-image: url("./img/bg-nos-realisations.jpg");
+  background-image: url("./img/bg-nos-realisations.webp");
 }
 /* bg home expertise */
 .bg-exp-assistance {
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-    url("./img/home-expertise-assistance.jpg");
+    url("./img/home-expertise-assistance.webp");
 }
 .bg-exp-pilotage {
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-    url("./img/home-expertise-pilotage.jpg");
+    url("./img/home-expertise-pilotage.webp");
 }
 .bg-exp-topographie {
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-    url("./img/home-expertise-topographie.jpg");
+    url("./img/home-expertise-topographie.webp");
 }
 
 .bg-notre-expertise,
@@ -122,25 +122,25 @@ a:hover {
 }
 /* nos metier */
 .bg-metier {
-  background-image: url("./img/bg-metier.jpg");
+  background-image: url("./img/bg-metier.webp");
   background-size: cover;
   background-position: 50% 50%;
 }
 .bg-metier-ingenierie {
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-    url("./img/metier-ingenierie.jpg");
+    url("./img/metier-ingenierie.webp");
 }
 .bg-metier-supervision-encadrement {
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-    url("./img/metier-supervison-encadrement.jpg");
+    url("./img/metier-supervison-encadrement.webp");
 }
 .bg-metier-topographie {
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-    url("./img/metier-topographie.jpg");
+    url("./img/metier-topographie.webp");
 }
 /* nos valeurs */
 .bg-valeurs {
-  background-image: url("./img/bg-valeurs.jpg");
+  background-image: url("./img/bg-valeurs.webp");
 }
 /* les ronds */
 
@@ -163,19 +163,19 @@ a:hover {
   background-position: center;
 }
 .v-vision:before {
-  background-image: url("./img/valeur-vision.png");
+  background-image: url("./img/valeur-vision.webp");
 }
 .v-optimistaion:before {
-  background-image: url("./img/valeur-optimisation.png");
+  background-image: url("./img/valeur-optimisation.webp");
 }
 .v-performance:before {
-  background-image: url("./img/valeur-performance.png");
+  background-image: url("./img/valeur-performance.webp");
 }
 .v-flexibilite:before {
-  background-image: url("./img/valeur-flexibilite.png");
+  background-image: url("./img/valeur-flexibilite.webp");
 }
 .v-fiabilite:before {
-  background-image: url("./img/valeur-fiabilite.png");
+  background-image: url("./img/valeur-fiabilite.webp");
 }
 
 .bg-valeurs .icon:after {
@@ -437,17 +437,17 @@ ul.second span {
 /*-- Nos smart solutions -----------------------------------------------*/
 /*----------------------------------------------------------------------*/
 .bg-nos-solutions {
-  background-image: url("./img/smart/bg-nos-solutions.jpg");
+  background-image: url("./img/smart/bg-nos-solutions.webp");
   background-size: cover;
 }
 
 .bg-nos-smart-solutions {
-  background-image: url("./img/smart/bg-nos-smart-solutions.jpg");
+  background-image: url("./img/smart/bg-nos-smart-solutions.webp");
   background-size: cover;
   background-color: #d3d3d3;
 }
 .bg-mac {
-  background-image: url("./img/smart/bg-logiciels.jpg");
+  background-image: url("./img/smart/bg-logiciels.webp");
   background-repeat: no-repeat;
   background-position: center;
   background-color: #eee;
@@ -468,32 +468,32 @@ ul.second span {
 }
 .bg-drone {
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-    url("./img/smart/drone.jpg");
+    url("./img/smart/drone.webp");
   height: 300px;
 }
 .bg-antenne {
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-    url("./img/smart/antenne.jpg");
+    url("./img/smart/antenne.webp");
   height: 300px;
 }
 .bg-robotique {
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-    url("./img/smart/robotique.jpg");
+    url("./img/smart/robotique.webp");
   height: 300px;
 }
 .bg-scanner {
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-    url("./img/smart/scanner.jpg");
+    url("./img/smart/scanner.webp");
   height: 300px;
 }
 .bg-metier-bas {
-  background-image: url("./img/Nos_Metiers_Portail/photo_pied_de_page.jpg");
+  background-image: url("./img/Nos_Metiers_Portail/photo_pied_de_page.webp");
   background-size: cover;
 }
 
 .bg-construction {
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-    url("./img/smart/bg-construction.jpg");
+    url("./img/smart/bg-construction.webp");
 
   background-size: cover;
 }
@@ -511,7 +511,7 @@ ul.my-ul i {
 /* Nos smart solutions */
 .bg-valley {
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-    url("./img/valeurs/valley.jpg");
+    url("./img/valeurs/valley.webp");
   height: 400px;
 }
 /*----------------------------------------------------------------------*/
@@ -646,13 +646,5 @@ ul.real-menu li a:hover {
   height: 50px;
 }
 .gmap__link {
-  /* display: block;
-  width: 90%;
-  margin: 20px auto;
-  border: 1px solid #000;
-  border-radius: 5px; */
   overflow: hidden;
-}
-.gmap__link img {
-  /* width: ; */
 }
