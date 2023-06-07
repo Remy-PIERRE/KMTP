@@ -104,7 +104,12 @@
               </ul>
 
               <div class="ms-auto mt-0 d-none d-xl-block">
-                <a class="btn-contact">Contact</a>
+                <a
+                  class="btn-contact"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modal"
+                  >Contact</a
+                >
               </div>
             </div>
           </nav>
@@ -745,7 +750,12 @@
             correspond.
           </div>
           <div class="col-12 col-lg-4 col-xl-3 pt-4">
-            <a class="btn-contact2 mt-3 mx-4">Contactez-nous</a>
+            <a
+              class="btn-contact2 mt-3 mx-4"
+              data-bs-toggle="modal"
+              data-bs-target="#modal"
+              >Contactez-nous</a
+            >
           </div>
         </div>
       </section>
@@ -821,6 +831,35 @@
         </div>
       </div>
     </footer>
+
+    <div class="modal" tabindex="-1" id="modal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header bg-vert text-white">
+            <h4 class="modal-title">CONTACTEZ-NOUS</h4>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <h5>Kmtp International Project</h5>
+            <p>
+              Paris étoile Galilée 33, rue Galilée<br />
+              75116 PARIS – FRANCE
+            </p>
+            <div class="mb-2">
+              <span class="fw-bold"><i class="fas fa-envelope"></i></span>&nbsp;
+              <a href="mailto:contact@kmtp.io" class="">contact@kmtp.io</a>
+            </div>
+            <span class="fw-bold"><i class="fas fa-phone"></i></span>&nbsp;
+            <a href="tel:+33177696598" class="">+33 1 77 69 65 98</a>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

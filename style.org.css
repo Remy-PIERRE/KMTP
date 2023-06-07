@@ -666,3 +666,6 @@ ul.real-menu li a:hover {
   font-size: 1rem !important;
   line-height: 2 !important;
 }
+.img-cover {
+  object-fit: cover;
+}
