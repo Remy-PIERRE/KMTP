@@ -62,6 +62,8 @@ a:hover {
 }
 .bg-gris-fonce {
   background-color: #eee;
+  background-image: url("./img/bg-expertise-pattern.png");
+  background-size: 100% 100%;
 }
 .bg-blanc {
   background-color: #fff;
@@ -77,6 +79,7 @@ a:hover {
 }
 
 .bg-home {
+  height: 680px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
     url("./img/bg-home.webp");
   background-size: cover;
@@ -290,9 +293,11 @@ a.btn-exp i {
 a.footer-icon,
 a.btn-exp {
   width: 40px;
+  height: 40px;
   margin: auto 0;
   padding: 10px 6px 10px 6px;
   border-radius: 50% !important;
+  font-size: 1rem !important;
 }
 a.btn-contact2 {
   text-align: center;
@@ -349,13 +354,13 @@ footer h3 {
 /* ------------ ZOOM IN ------------*/
 .photo {
   cursor: pointer;
-  background-size: 100%;
+  background-size: auto 100%;
   background-size: center;
   transition: all 1s;
 }
 .photo:hover {
   background-size: center;
-  background-size: 105%;
+  background-size: auto 105%;
 }
 /*----------------------------------------------------------------------*/
 /*----- Notre expertise detail -----------------------------------------*/
@@ -487,7 +492,7 @@ ul.second span {
   height: 300px;
 }
 .bg-metier-bas {
-  background-image: url("./img/Nos_Metiers_Portail/photo_pied_de_page.webp");
+  background-image: url("./img/Nos_Metiers_Portail/photo-pied-de-page.webp");
   background-size: cover;
 }
 
@@ -647,4 +652,17 @@ ul.real-menu li a:hover {
 }
 .gmap__link {
   overflow: hidden;
+}
+
+.home__nosMetier__fleche {
+  position: absolute;
+  bottom: 20px;
+  right: 50px;
+}
+.bg-cover {
+  background-size: cover;
+}
+.text-nosMetiers-footer {
+  font-size: 1rem !important;
+  line-height: 2 !important;
 }
